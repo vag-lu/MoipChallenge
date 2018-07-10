@@ -12,7 +12,7 @@ Desafio técnico proposto pelo Moip.
 * Verifique se a API está em execução acessando: `http://localhost:3000`
 
 ## Rotas
-* Para transações via boleto utilize a rota `/boleto`.
+* Para transações via boleto utilize o endpoint `/boleto`.
 * Para transações via carão de crádito utilize `/creditcard`.
   
 ## Requisições
@@ -58,6 +58,6 @@ Retorno da API:
 ```
 
 ### GET
-  Em qualquer uma das rotas `/boleto` ou `/creditcard` a requisição GET irá retornar todas as transações do tipo escolhido. Para trazer uma transação expecífica utilize `/boleto/<id>` ou `/creditcard/<id>`.
+  Em ambos os endpoints, `/boleto` ou `/creditcard`, a requisição GET irá retornar todas as transações do tipo escolhido. Para trazer uma transação expecífica utilize `/boleto/<id>` ou `/creditcard/<id>`.
 
 
